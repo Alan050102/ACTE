@@ -49,7 +49,7 @@
                     <a href="#" class="nav-item nav-link">Crear usuario</a>
                     <a href="#" class="nav-item nav-link">Contacto</a>
                 </div>
-                <a href="" class="btn btn-primary px-4">Iniciar sesion</a>
+                <a href="" class="btn btn-primary px-4 btn-form">Iniciar sesion</a>
             </div>
         </nav>
     </div>
@@ -68,7 +68,7 @@
                     <input type="text" class="form-control" id="donorName" placeholder="Acte" required>
                 </div>
                 <div class="form-group">
-                    <label for="donorName">Número del Donador:</label>
+                    <label for="donorName">Número del Donante:</label>
                     <input type="text" maxlength="14" class="form-control" id="donorNumber" placeholder="+521234567890" required>
                 </div>
                 <div class="form-group">
@@ -76,16 +76,16 @@
                     <input type="email" class="form-control" id="donorEmail" placeholder="acte@gmail.com" required>
                 </div>
                 <div class="form-group">
-                    <label for="donorEmail">Modelo de la computadora a donar:</label>
+                    <label for="donorEmail">Modelo de computadora a donar:</label>
                     <input type="text" class="form-control" id="donorEmail" placeholder="Marca de la computadora" required>
                 </div>
                 <div class="form-group">
                     <label for="donorComputo">Defectos del computo a donar:</label>
                     <textarea class="form-control-textarea"  rows="3" id="equipmentDetails"
-                    placeholder="Coloca las caracteristicas de la computadora que piensas donar y los defectos que tenia la computadora" required></textarea>
+                    placeholder="Coloca las caracteristicas de la computadora que piensas donar y los defectos que tiene la computadora" required></textarea>
                 </div>
                 <br>
-                <button type="submit" class="btn btn-primary">Registrar Donador</button>
+                <button type="submit" class="btn btn-primary btn-form">Registrar Donador</button>
             </form>
         </div>
     </div>
@@ -99,9 +99,12 @@
             <div class="col-lg-3 col-md-6 mb-5">
                 <a href="" class="navbar-brand font-weight-bold text-primary m-0 mb-4 px-3" style="font-size: 40px; line-height: 40px;">
                     <i><img src="resource/iconblue-laptop.ico" width="60"></i>
-                    <span class="text-white acte">ACTE</span>
+                    <span class="text-white acte text-primary">ACTE</span>
                 </a>
-                <p class="mt-3">Labore dolor amet ipsum ea, erat sit ipsum duo eos. Volup amet ea dolor et magna dolor, elitr rebum duo est sed diam elitr. Stet elitr stet diam duo eos rebum ipsum diam ipsum elitr.</p>
+                <p class="mt-3">
+                    Nosotros nos centramos a la recopilación y restauración de computadoras en desuso con el propósito de donarlas 
+                    a estudiantes que carecen de acceso a recursos tecnológicos para sus actividades escolares.
+                </p>
                 <div class="d-flex justify-content-start mt-4">
                     <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
                         style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
@@ -158,7 +161,7 @@
                             required="required" />
                     </div>
                     <div>
-                        <button class="btn btn-primary btn-block border-0 py-3" type="submit">Enviar</button>
+                        <button class="btn btn-primary btn-block border-0 py-3 btn-form" type="submit">Enviar</button>
                     </div>
                 </form>
             </div>
