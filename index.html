@@ -43,12 +43,12 @@
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav font-weight-bold mx-auto py-0">
                     <a href="index.html" class="nav-item nav-link active">Inicio</a>
-                    <a href="beneficiario.html" class="nav-item nav-link">Beneficiario</a>
-                    <a href="donacion.html" class="nav-item nav-link">Donar</a>
-                    <a href="#" class="nav-item nav-link">Crear usuario</a>
+                    <a href="#" class="nav-item nav-link">Acerca de nosotros</a>
+                    <a href="#" class="nav-item nav-link">Servicios</a>
+                    <a href="crear_usuario.html" class="nav-item nav-link">Crear usuario</a>
                     <a href="#" class="nav-item nav-link">Contacto</a>
                 </div>
-                <a href="" class="btn btn-primary px-4 btn-form">Iniciar sesion</a>
+                <a href="" class="btn btn-primary px-4 btn-form" data-bs-toggle="modal" data-bs-target="#loginModal">Iniciar sesion</a>
             </div>
         </nav>
     </div>
@@ -65,7 +65,7 @@
                     Si tienes una computadora en mal estado o no posees una computadora, para realizar tus actividades
                     academicas, acude a nosotros.
                 </p>
-                <a href="" class="btn btn-secondary mt-1 py-3 px-5 btn-form">Iniciar sesion</a>
+                <a href="" class="btn btn-secondary mt-1 py-3 px-5 btn-form" data-bs-toggle="modal" data-bs-target="#loginModal">Iniciar sesion</a>
             </div>
             <div class="col-lg-6 text-center text-lg-right">
                 <img class="img-fluid p-4" src="resource/computadora.jpg">
@@ -158,9 +158,42 @@
     </div>
     <!-- Footer End -->
 
+    <!-- Modal Start -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="loginModalLabel">Iniciar sesión</h5>
+            <button type="button" class="btn-close"data-bs-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <!-- Aquí puedes agregar el formulario de inicio de sesión si lo deseas -->
+            <form action="usuario/usuario.html">
+                <div class="form-group">
+                    <label for="username">Usuario:</label>
+                    <input type="text" class="form-control" id="username" placeholder="Ingrese su usuario">
+                </div>
+                <div class="form-group">
+                    <label for="password">Contraseña:</label>
+                    <input type="password" class="form-control" id="password" placeholder="Ingrese su contraseña">
+                </div>
+                <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+            </form>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-- Modal End -->
+
     <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
 
 </body>
 
