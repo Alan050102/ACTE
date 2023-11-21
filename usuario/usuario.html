@@ -1,1 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="utf-8">
+    <title>ACTE - Acceso Computacional a la Tecnología Educativa</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="../resource/iconblue-laptop.ico" rel="icon">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+
+    <!-- Flaticon Font -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <!-- <link href="css/style.css" rel="stylesheet"> -->
+    <link href="../css/estilos.css" rel="stylesheet">
+
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Last-Modified" content="0">
+    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-light position-relative shadow">
+        <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0 px-lg-5">
+            <a href="" class="navbar-brand font-weight-bold text-secondary" style="font-size: 50px;">
+                <i><img src="../resource/laptop.ico" width="60" ></i>
+                <span class="text-primary acte">ACTE</span>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav font-weight-bold mx-auto py-0">
+                    <a href="usuario.html" class="nav-item nav-link active">Inicio</a>
+                    <a href="beneficiario.html" class="nav-item nav-link">Beneficiario</a>
+                    <a href="donacion.html" class="nav-item nav-link">Donar</a>
+                    <a href="../crear_usuario.html" class="nav-item nav-link">Crear usuario</a>
+                    <a href="#" class="nav-item nav-link">Contacto</a>
+                </div>
+                <a class="btn btn-danger" aria-current="page" href="../index.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="30" fill="currentColor" class="bi bi-door-closed" viewBox="0 0 16 16">
+                    <path d="M3 2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v13h1.5a.5.5 0 0 1 0 1h-13a.5.5 0 0 1 0-1H3V2zm1 13h8V2H4v13z" />
+                    <path d="M9 9a1 1 0 1 0 2 0 1 1 0 0 0-2 0z" />
+                  </svg>  Salir</a>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="row align-items-center px-4 mt-4">
+    <h1 class="mb-4">Bienvenido usuario: </h1>
+
+    <div class="card-body">
+        <h2>Porfavor selecciona la opcion que te resulte útil:</h2>
+        <div class="row">
+            <div class="col-12 text-center mb-2">
+                <ul class="list-inline mb-4" id="portfolio-flters">
+                    <a href="usuario.html"><li class="btn btn-outline-primary m-1 active"  data-filter="*">Usuario</li></a>
+                    <a href="beneficiario.html"><li class="btn btn-outline-primary m-1" data-filter=".first">Beneficiario</li></a>
+                    <a href="donacion.html"><li class="btn btn-outline-primary m-1" data-filter=".second">Donante</li></a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid  text-white mt-5 py-5 px-sm-3 px-md-5 footer-start">
+        <div class="row pt-5">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <a href="" class="navbar-brand font-weight-bold text-primary m-0 mb-4 px-3" style="font-size: 40px; line-height: 40px;">
+                    <i><img src="resource/iconblue-laptop.ico" width="60"></i>
+                    <span class="text-white acte text-primary">ACTE</span>
+                </a>
+                <p class="mt-3">
+                    Nosotros nos centramos a la recopilación y restauración de computadoras en desuso con el propósito de donarlas 
+                    a estudiantes que carecen de acceso a recursos tecnológicos para sus actividades escolares.
+                </p>
+                <div class="d-flex justify-content-start mt-4">
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
+                        style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
+                        style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
+                        style="width: 38px; height: 38px;" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
+                        style="width: 38px; height: 38px;" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h3 class="text-primary mb-4">Contacto</h3>
+                <div class="d-flex">
+                    <h4 class="fa fa-map-marker-alt text-primary"></h4>
+                    <div class="px-3">
+                        <h5 class="text-white">Dirección</h5>
+                        <p>Nuevo Perif. Ote. 555, Ejido San José, Tateposco, 45425 Tonalá, Jal.</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <h4 class="fa fa-envelope text-primary"></h4>
+                    <div class="px-3">
+                        <h5 class="text-white">Correo</h5>
+                        <p>ACTE@example.com</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <h4 class="fa fa-phone-alt text-primary"></h4>
+                    <div class="px-3">
+                        <h5 class="text-white">Teléfono</h5>
+                        <p>+052 33 5678 9052</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h3 class="text-primary mb-4">Enlace rapido</h3>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white mb-2" href="usuario.html"><i class="fa fa-angle-right mr-2"></i>Inicio</a>
+                    <a class="text-white mb-2" href="beneficiario.html"><i class="fa fa-angle-right mr-2"></i>Beneficiario</a>
+                    <a class="text-white mb-2" href="donacion.html"><i class="fa fa-angle-right mr-2"></i>Donar</a>
+                    <a class="text-white mb-2" href="../crear_usuario.html"><i class="fa fa-angle-right mr-2"></i>Crear usuario</a>
+                    <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>Contacto</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h3 class="text-primary mb-4">Boletin informativo</h3>
+                <form action="">
+                    <div class="form-group">
+                        <input type="email" class="form-control border-0 py-4" placeholder="Correo:" required="required" />
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control border-0 py-4" placeholder="Contraseña"
+                            required="required" />
+                    </div>
+                    <div>
+                        <button class="btn btn-primary btn-block border-0 py-3 btn-form" type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="container-fluid pt-5" style="border-top: 1px solid rgba(23, 162, 184, .2);;">
+            <p class="m-0 text-center text-white">
+                &copy; <a class="text-primary font-weight-bold" href="#">2023 ACTE</a>. Todos los derechos reservados.
+            </p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Modal Start -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="loginModalLabel">Iniciar sesión</h5>
+            <button type="button" class="btn-close"data-bs-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <!-- Aquí puedes agregar el formulario de inicio de sesión si lo deseas -->
+            <form>
+                <div class="form-group">
+                    <label for="username">Usuario:</label>
+                    <input type="text" class="form-control" id="username" placeholder="Ingrese su usuario">
+                </div>
+                <div class="form-group">
+                    <label for="password">Contraseña:</label>
+                    <input type="password" class="form-control" id="password" placeholder="Ingrese su contraseña">
+                </div>
+                <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+            </form>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-- Modal End -->
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
